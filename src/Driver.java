@@ -17,5 +17,8 @@ public class Driver
 
         System.out.println("----------\nReversed Stack: " + origStack);
 
+        origStack.remove(0);
+        System.out.println("----------\nNew Stack after removing index: " + origStack);
+
     }
 }
